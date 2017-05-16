@@ -1,0 +1,6 @@
+object id 1 of type 4Cube check Cube => Cube  collides with object id 2 of type 4Cube
+object id 1 of type 4Cube check Sphere => Cube  collides with object id 3 of type 6Sphere
+object id 1 of type 4Cube check Sphere => Cube  does not collide with object id 4 of type 6Sphere
+object id 2 of type 4Cube check Sphere => Cube  collides with object id 3 of type 6Sphere
+object id 2 of type 4Cube check Sphere => Cube  does not collide with object id 4 of type 6Sphere
+object id 3 of type 6Sphere check Sphere => Sphere  collides with object id 4 of type 6Sphere
